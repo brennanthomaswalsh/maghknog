@@ -16,7 +16,7 @@ class Card extends Component {
     return (
       <div className="Card">
         <Tabs onSelect={(index, label) => this.setState({onForm: index })}>
-          <h1 className={this.props.className || "header"}>{this.props.header}</h1>
+          <h1 className="{this.props.className} header">{this.props.header}</h1>
           <TabList>
            <Tab>Description</Tab>
            <Tab>History</Tab>
